@@ -1068,7 +1068,16 @@ footer {
         <div class="s-label">05 — Contact</div>
         <h2 class="s-title">Let's <span>Work Together</span></h2>
         <div class="contact-sub">Open to full-stack, Python backend and AI/ML roles — India and internationally. Feel free to reach out directly.</div>
-        <a href="/cdn-cgi/l/email-protection#b4c7dbdad5c6dfd5c6c0d5c2cdd5f4d3d9d5ddd89ad7dbd9" class="contact-email">&#9993;&nbsp; <span class="__cf_email__" data-cfemail="7605191817041d17040217000f1736111b171f1a5815191b">[email&#160;protected]</span></a>
+        <a id="contact-email-link" href="#" class="contact-email">&#9993;&nbsp; <span id="contact-email-text"></span></a>
+        <script>
+          (function(){
+            var u='sonarkartavya';var d='gmail.com';
+            var el=document.getElementById('contact-email-link');
+            var tx=document.getElementById('contact-email-text');
+            el.href='mailto:'+u+'@'+d;
+            tx.textContent=u+'@'+d;
+          })();
+        </script>
 
         <div class="social-head">Profiles</div>
         <ul class="social-list">
@@ -1132,7 +1141,7 @@ footer {
 <!-- ═══════════════════════════════════════════════════════════════
      JAVASCRIPT
 ═══════════════════════════════════════════════════════════════ -->
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 /* ── LOADER ──────────────────────────────────────────────────── */
 const loaderTexts = ['Booting system...', 'Loading modules...', 'Initialising UI...', 'Ready.'];
 let pct = 0;
